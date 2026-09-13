@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: gray;
+    color: lightblue;
+}
+
+.barra-superior {
+    width: 100%;
+    height: 84px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.enlaces-superiores {
+    display: flex;
+    gap: 24px;
+}
+
+.entrada {
+    display: flex;
+    width: 25%;
+    height: 42px;
+}
+
+.entrada input {
+    width: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 0;
+}
+
+.entrada a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: lightblue;
+    color: gray;
+}
+
+main {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightblue;
+}
+
+.bloque-superior {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.bloque-superior p {
+    margin-top: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-top: 40px;
+    background-color: cyan;
+}
+
+.enlaces-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.botones-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.boton {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: white;
+}
+
+.boton-oscuro {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: grey;
+    color: white;
+}
+
+.seccion1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
+    gap: 20px;
+}
+
+.elemento {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemento img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.elemento h3 {
+    font-size: 16px;
+}
+
+.elemento p {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.seccion2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    height: 280px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: gray;
+}
+
+.imagen-central {
+    width: 25%;
+    height: 200px;
+    background-color: lightblue;
+}
+
+.texto-central {
+    width: 45%;
+}
+
+.texto-central h2 {
+    color: lightblue;
+}
+
+.texto-central p {
+    margin-top: 10px;
+    color: white;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.tarjeta {
+    width: 20%;
+    background-color: white;
+}
+
+.tarjeta img {
+    width: 100%;
+    background-color: #93d2d7;
+}
+
+.texto-tarjeta {
+    padding: 15px;
+}
+
+.texto-tarjeta h3 {
+    font-size: 16px;
+}
+
+.texto-tarjeta p {
+    margin-top: 10px;
+    font-size: 13px;
+}
