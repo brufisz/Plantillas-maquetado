@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    font-size: 1.083vw;
+    font-size: 1.1vw;
     background-color: white;
     color: black;
 }
@@ -27,15 +27,15 @@ header {
     justify-content: space-between;
 }
 .enlaces-superiores {
-    width: 45.333vw;
+    width: 45.3vw;
     display: flex;
     align-items: center;
-    gap: 1.833vw;
-    font-size: 1.042vw;
+    gap: 1.8vw;
+    font-size: 1vw;
 }
 .titulo-nav {
-    margin-right: 7.833vw;
-    font-size: 1.792vw;
+    margin-right: 7.8vw;
+    font-size: 1.8vw;
 }
 .entrada {
     display: flex;
@@ -44,13 +44,13 @@ header {
 }
 .entrada input {
     width: 87%;
-    padding-top: 0.833vw;
-    padding-bottom: 0.833vw;
-    padding-left: 1.25vw;
-    padding-right: 1.25vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 1.3vw;
+    padding-right: 1.3vw;
     border: 0;
     font-family: Arial, sans-serif;
-    font-size: 1.083vw;
+    font-size: 1.1vw;
 }
 .entrada a {
     width: 13%;
@@ -67,56 +67,56 @@ main {
     background-color: #c4edf1;
 }
 .bloque-superior {
-    padding-top: 1.667vw;
+    padding-top: 1.7vw;
     padding-left: 7.2%;
     padding-right: 7.2%;
     color: #91d3d9;
 }
 .bloque-superior h1 {
-    font-size: 1.75vw;
-    line-height: 2.167vw;
-    margin-bottom: 0.25vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
+    margin-bottom: 0.3vw;
 }
 .bloque-superior p {
-    font-size: 1.083vw;
-    line-height: 1.417vw;
+    font-size: 1.1vw;
+    line-height: 1.4vw;
 }
 .menu {
     display: flex;
     justify-content: space-between;
     height: 5vw;
-    margin-top: 1.417vw;
-    font-size: 1.042vw;
+    margin-top: 1.4vw;
+    font-size: 1vw;
     background-color: #91d3d9;
     color: white;
 }
 .enlaces-menu {
-    width: 33.667vw;
+    width: 33.7vw;
     display: flex;
     align-items: center;
-    gap: 1.917vw;
-    padding-left: 1.833vw;
-    padding-right: 1.833vw;
+    gap: 1.9vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
 }
 .botones-menu {
-    width: 30.667vw;
+    width: 30.5vw;
     display: flex;
     align-items: center;
-    gap: 1.333vw;
+    gap: 1.3vw;
 }
 .boton {
-    width: 9.333vw;
-    padding-top: 0.333vw;
-    padding-bottom: 0.333vw;
-    padding-left: 0.833vw;
-    padding-right: 0.833vw;
-    line-height: 1.333vw;
+    width: 9.3vw;
+    padding-top: 0.3vw;
+    padding-bottom: 0.3vw;
+    padding-left: 0.8vw;
+    padding-right: 0.8vw;
+    line-height: 1.3vw;
     text-align: center;
     background-color: white;
     color: #656a73;
 }
 .boton-oscuro {
-    width: 9.333vw;
+    width: 9.3vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,19 +126,19 @@ main {
 }
 .seccion1 {
     padding-top: 3vw;
-    padding-bottom: 2.833vw;
+    padding-bottom: 2.8vw;
     text-align: center;
     color: white;
 }
 .seccion1 h2 {
-    font-size: 1.833vw;
-    line-height: 2.417vw;
+    font-size: 1.8vw;
+    line-height: 2.4vw;
 }
 .fila {
     display: flex;
     justify-content: space-between;
     width: 64.2%;
-    margin-top: 3.417vw;
+    margin-top: 3.4vw;
     margin-left: auto;
     margin-right: auto;
 }
@@ -150,23 +150,23 @@ main {
 }
 .elemento img {
     display: block;
-    width: 5.667vw;
-    height: 5.667vw;
+    width: 5.7vw;
+    height: 5.7vw;
     margin-bottom: 1.5vw;
     background-color: white;
 }
 .elemento p {
-    width: 9.333vw;
-    font-size: 0.917vw;
-    line-height: 1.083vw;
+    width: 9.3vw;
+    font-size: 0.9vw;
+    line-height: 1.1vw;
 }
 .seccion2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 20vw;
-    padding-top: 4.833vw;
-    padding-bottom: 4.833vw;
+    padding-top: 4.8vw;
+    padding-bottom: 4.8vw;
     padding-left: 7.2%;
     padding-right: 7.2%;
     background-color: #656a73;
@@ -183,30 +183,31 @@ main {
     width: 60vw;
 }
 .imagen-central {
-    width: 19.667vw;
-    height: 10.333vw;
+    width: 19.7vw;
+    height: 10.3vw;
     background-color: #91d3d9;
 }
 .texto-central {
-    width: 37.833vw;
+    width: 37.8vw;
+    text-align: justify;
 }
 .texto-central h2 {
-    font-size: 1.75vw;
-    line-height: 2.167vw;
+    font-size: 1.8vw;
+    line-height: 2.2vw;
     color: #91d3d9;
 }
 .texto-central p {
-    margin-top: 0.833vw;
-    font-size: 1.083vw;
-    line-height: 1.25vw;
+    margin-top: 0.8vw;
+    font-size: 1.1vw;
+    line-height: 1.3vw;
     color: white;
 }
 .seccion3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    padding-top: 3.917vw;
-    padding-bottom: 3.917vw;
+    padding-top: 3.9vw;
+    padding-bottom: 3.9vw;
     padding-left: 7.2%;
     padding-right: 7.2%;
 }
@@ -221,19 +222,19 @@ main {
     background-color: #91d3d9;
 }
 .texto-tarjeta {
-    padding-top: 0.833vw;
-    padding-bottom: 0.833vw;
-    padding-left: 1.833vw;
-    padding-right: 1.833vw;
+    padding-top: 0.8vw;
+    padding-bottom: 0.8vw;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
 }
 .texto-tarjeta h3 {
-    font-size: 1.16vw;
-    line-height: 1.333vw;
+    font-size: 1.2vw;
+    line-height: 1.3vw;
     color: #656a73;
 }
 .texto-tarjeta p {
-    margin-top: 0.333vw;
-    font-size: 0.917vw;
-    line-height: 1.083vw;
+    margin-top: 0.3vw;
+    font-size: 0.9vw;
+    line-height: 1.1vw;
     color: #999999;
 }
